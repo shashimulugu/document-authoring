@@ -5,7 +5,7 @@ anchors.forEach(function(anchor) {
     if (href.includes('youtube.com/watch')) {
         // Extract the video ID
         var videoId = href.split('v=')[1].split('&')[0];
-		alert(videoId);
+		//alert(videoId);
         // Create the iFrame
         var iframe = document.createElement('iframe');
         iframe.src = 'https://www.youtube.com/embed/' + videoId;
